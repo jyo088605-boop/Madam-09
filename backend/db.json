@@ -1,0 +1,393 @@
+{
+  "timeline": [
+    {
+      "id": "t1",
+      "year": "September 15, 2023 (Year 1)",
+      "title": "First Year & How We Met",
+      "description": "Our journey began on September 15, 2023! Studying together at the college library desk, beginning an unforgettable bond.",
+      "image": "http://localhost:5000/uploads/journey-first-year.jpg"
+    },
+    {
+      "id": "t2",
+      "year": "Year 2 (2024)",
+      "title": "Growing Closer",
+      "description": "A year of endless conversations, sharing secrets, inside jokes, and being there for each other through thick and thin. Our bond grew so much stronger.",
+      "image": "http://localhost:5000/uploads/journey-second-year.jpg"
+    },
+    {
+      "id": "t3",
+      "year": "Year 3 (2025)",
+      "title": "Unforgettable Memories",
+      "description": "Celebrating milestones together, sharing laughs, support, and standing by each other as we navigated life's challenges.",
+      "image": "http://localhost:5000/uploads/journey-third-year.jpg"
+    },
+    {
+      "id": "t4",
+      "year": "Year 4 (2026)",
+      "title": "Now and Forever",
+      "description": "Three years of wonderful friendship and counting! We've evolved so much, yet our laughs remain just as loud and our support just as strong.",
+      "image": ""
+    }
+  ],
+  "letters": [
+    {
+      "id": "l1",
+      "title": "Wish You A Very Happy Birthday, Madam! 💖",
+      "content": "Wish you a very Happy Birthday, Madam! 🎉🎂❤️\n\nI love you so much. 🥹❤️ I never imagined that you would become this special to me in my life. I'm very selfish and possessive when it comes to you because I'm always scared that one day you might go far away from me. Sometimes I even feel jealous thinking that the love you should be receiving from me might be given to someone else. It's not that I can't accept it, but sometimes I wonder... what would happen to me if you weren't in my life? 💔\n\nI've wanted to tell you something for a long time. I don't know if you remember, but I once hurt you. The truth is, that day I was hurt because of you too. 😔 I shouted at you because I thought telling you the reason would hurt you even more. I know you felt really bad that day. If I ever react like that again, please remember this. Whenever I get angry, I try my best to control myself, especially with you... because you're very special to me. ❤️\n\nUntil our 2nd year, I don't really know what our bond was like. But I promise you, from our 3rd year onwards, you've become one of the closest people in my life. 🫂 Do you know? You even replaced Vanitha in that special place in my heart. ❤️\n\nI keep teasing you and saying silly things, but whenever you're not with me, I feel an emptiness... a loneliness and pain that I can't even explain. 😢 At those moments, I don't even know what I'm saying or doing. But when you're with me, the happiness I feel is something I've never experienced before. I don't know why... but it's true. 🥹✨\n\nI don't know if we'll stay together after B.Tech or not, but I promise you this: no matter what happens, I'll always be there for you—through your ups and downs, in every situation. 🤝❤️ Always remember that there's someone here who truly understands your pain and is ready to stand by your side.\n\nYou're not just my favorite person or someone special. You're my comfort zone. 🤍 No matter how many fights we have or what happens between us, I simply can't stay away from you. I don't know why... but I just can't. 🫶\n\nNo matter how much I say about you, it'll never be enough. ❤️\n\nOnce again, wishing you a very, very Happy Birthday, Madam! 🎂🎉 Enjoy your special day and achieve great success in your life. 🌸✨\n\nI'm already waiting for your wedding. 😄 I hope you get married soon, and when it's my wedding, I want you and your husband to come together and bless me. That's my little wish. 💍💖\n\nAll the very best for your career, bangaram! 🌟 I'll always be with you. ❤️\n\nUmuahhhh! 😘💋\n\nOnce again... Happy Birthday, Madam! 🎉🎂🥳❤️",
+      "date": "2026-10-09"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "g_krishna_first",
+      "url": "http://localhost:5000/uploads/her-photo-krishna.jpg",
+      "title": "Divine Grace with Lord Krishna",
+      "category": "photos",
+      "caption": "A divine, beautiful moment looking up at Lord Krishna with flowers and devotion.",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "g_her_2",
+      "url": "http://localhost:5000/uploads/her-photo-2.jpg",
+      "title": "Elegance Personified",
+      "category": "photos",
+      "caption": "That calm, thoughtful gaze and stunning traditional saree.",
+      "date": "2024-07-20"
+    },
+    {
+      "id": "g_her_3",
+      "url": "http://localhost:5000/uploads/her-photo-3.jpg",
+      "title": "Brightest Smile & Nature",
+      "category": "photos",
+      "caption": "Her radiant smile amidst the green trees—pure happiness!",
+      "date": "2024-11-10"
+    },
+    {
+      "id": "g_her_4",
+      "url": "http://localhost:5000/uploads/her-photo-4.jpg",
+      "title": "Charming & Lovely",
+      "category": "photos",
+      "caption": "Adorably posing in vibrant blue with a sweet flower in her hair.",
+      "date": "2025-02-14"
+    },
+    {
+      "id": "g_her_5",
+      "url": "http://localhost:5000/uploads/her-photo-5.jpg",
+      "title": "Pure & Carefree in Nature",
+      "category": "photos",
+      "caption": "A candid, sweet moment by the green fields and flowing water.",
+      "date": "2025-08-22"
+    },
+    {
+      "id": "g_her_6",
+      "url": "http://localhost:5000/uploads/her-photo-6.jpg",
+      "title": "Among the Greenery",
+      "category": "photos",
+      "caption": "Posing with grace under the green leaves in a stylish black and red outfit.",
+      "date": "2025-09-05"
+    },
+    {
+      "id": "g_her_7",
+      "url": "http://localhost:5000/uploads/her-photo-7.jpg",
+      "title": "Confident & Radiant",
+      "category": "photos",
+      "caption": "Standing confident with that charming smile in royal blue.",
+      "date": "2025-10-18"
+    },
+    {
+      "id": "g_her_8",
+      "url": "http://localhost:5000/uploads/her-photo-8.jpg",
+      "title": "Joy in the Paddy Fields",
+      "category": "photos",
+      "caption": "Splashing cool water in the lush green fields—laughter and pure memories!",
+      "date": "2025-11-20"
+    },
+    {
+      "id": "g_her_9",
+      "url": "http://localhost:5000/uploads/her-photo-9.jpg",
+      "title": "Princess in Pink",
+      "category": "photos",
+      "caption": "Looking like a princess in this gorgeous pink floral gown.",
+      "date": "2026-01-10"
+    },
+    {
+      "id": "g_her_11",
+      "url": "http://localhost:5000/uploads/her-photo-11.jpg",
+      "title": "Grand Celebration",
+      "category": "photos",
+      "caption": "Sitting regally in a traditional lehenga with stunning floral stage decorations.",
+      "date": "2026-05-18"
+    },
+    {
+      "id": "g_her_12",
+      "url": "http://localhost:5000/uploads/her-photo-12.jpg",
+      "title": "Traditional Ritual Moments",
+      "category": "photos",
+      "caption": "Cherished cultural ceremony in vibrant blue and red attire.",
+      "date": "2026-06-02"
+    },
+    {
+      "id": "g_her_13",
+      "url": "http://localhost:5000/uploads/her-photo-13.jpg",
+      "title": "Thoughtful & Sweet Selfie",
+      "category": "photos",
+      "caption": "A calm, sweet, and expressive candid moment.",
+      "date": "2026-07-15"
+    },
+    {
+      "id": "g_her_14",
+      "url": "http://localhost:5000/uploads/her-photo-14.jpg",
+      "title": "Vibrant Charm",
+      "category": "photos",
+      "caption": "Radiating joy and charm in vibrant magenta and purple.",
+      "date": "2026-08-30"
+    },
+    {
+      "id": "g_her_15",
+      "url": "http://localhost:5000/uploads/her-photo-15.jpg",
+      "title": "In the Mood for Flowers",
+      "category": "photos",
+      "caption": "Traditional flowers in hair with that adorable expression.",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g_her_16",
+      "url": "http://localhost:5000/uploads/her-photo-16.jpg",
+      "title": "Engineering Brilliance (ER Diagram)",
+      "category": "photos",
+      "caption": "Mastering database concepts and drawing ER diagrams at college!",
+      "date": "2025-02-12"
+    },
+    {
+      "id": "g_her_17",
+      "url": "http://localhost:5000/uploads/her-photo-17.jpg",
+      "title": "Sweet & Cheerful Smile",
+      "category": "photos",
+      "caption": "That heartwarming, candid smile that brightens any room.",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "g_her_18",
+      "url": "http://localhost:5000/uploads/her-photo-18.jpg",
+      "title": "Graceful in Teal",
+      "category": "photos",
+      "caption": "Looking stunning in dark teal with traditional jhumkas.",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "g_her_19",
+      "url": "http://localhost:5000/uploads/her-photo-19.jpg",
+      "title": "Happy Doctor Vibes",
+      "category": "photos",
+      "caption": "Posing with a stethoscope and the most infectious laugh ever!",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "g_her_20",
+      "url": "http://localhost:5000/uploads/her-photo-20.jpg",
+      "title": "Bunny Ears & Winter Vibes",
+      "category": "photos",
+      "caption": "Super cute and playful with pink fluffy earmuffs!",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "g_her_22",
+      "url": "http://localhost:5000/uploads/her-photo-22.jpg",
+      "title": "Precious Childhood Memory",
+      "category": "photos",
+      "caption": "Throwback to adorable childhood days in traditional green and pink pattu dress holding fruits.",
+      "date": "2015-05-10"
+    },
+    {
+      "id": "g_her_23",
+      "url": "http://localhost:5000/uploads/her-photo-23.jpg",
+      "title": "Radiant Everyday Joy",
+      "category": "photos",
+      "caption": "Warm smile and natural charm in pretty blue dress.",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "g_her_24",
+      "url": "http://localhost:5000/uploads/her-photo-24.jpg",
+      "title": "Royal Blue Beauty",
+      "category": "photos",
+      "caption": "Posing with grace in dark blue embroidered kurti and pink dupatta.",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "g_1791385415109",
+      "url": "http://localhost:5000/uploads/photo-1791385415100-131313825.jpeg",
+      "title": "WhatsApp Image 2026-08-10 at 8.31.54 PM (3)",
+      "category": "photos",
+      "caption": "",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "g_1791385456371",
+      "url": "http://localhost:5000/uploads/photo-1791385456366-12702812.jpeg",
+      "title": "WhatsApp Image 2026-08-10 at 8.32.01 PM",
+      "category": "photos",
+      "caption": "",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "g_1791385473426",
+      "url": "http://localhost:5000/uploads/photo-1791385473420-434490760.jpeg",
+      "title": "WhatsApp Image 2026-08-10 at 8.32.00 PM (2)",
+      "category": "photos",
+      "caption": "",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "g_1791385540122",
+      "url": "http://localhost:5000/uploads/photo-1791385540118-908407512.jpeg",
+      "title": "WhatsApp Image 2026-08-10 at 8.31.58 PM (3)",
+      "category": "photos",
+      "caption": "",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "g_1791385552725",
+      "url": "http://localhost:5000/uploads/photo-1791385552718-276902050.jpeg",
+      "title": "WhatsApp Image 2026-08-10 at 8.31.58 PM (1)",
+      "category": "photos",
+      "caption": "",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "g_1791385559927",
+      "url": "http://localhost:5000/uploads/photo-1791385559919-849864062.jpeg",
+      "title": "WhatsApp Image 2026-08-10 at 8.31.58 PM (2)",
+      "category": "photos",
+      "caption": "",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "g_1791385593569",
+      "url": "http://localhost:5000/uploads/photo-1791385593564-18652988.jpeg",
+      "title": "WhatsApp Image 2026-08-10 at 8.31.56 PM (2)",
+      "category": "photos",
+      "caption": "",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "g_fav_4",
+      "url": "http://localhost:5000/uploads/fav-person-1.jpg",
+      "title": "Childhood Phone Calls",
+      "category": "favorites",
+      "caption": "Pretending to talk on the phone in childhood—pure innocence and sweetest memories!",
+      "date": "2012-04-10"
+    },
+    {
+      "id": "g_fav_5",
+      "url": "http://localhost:5000/uploads/fav-person-2.jpg",
+      "title": "Leaning on My Favorite Person",
+      "category": "favorites",
+      "caption": "Always finding comfort and joy leaning on her favorite person.",
+      "date": "2024-11-15"
+    },
+    {
+      "id": "g_fav_6",
+      "url": "http://localhost:5000/uploads/fav-person-3.jpg",
+      "title": "Aarti & Blessings",
+      "category": "favorites",
+      "caption": "Traditional festive blessings and heartfelt smiles at home.",
+      "date": "2025-01-14"
+    },
+    {
+      "id": "g_fav_7",
+      "url": "http://localhost:5000/uploads/fav-person-4.jpg",
+      "title": "Together Through Everything",
+      "category": "favorites",
+      "caption": "Standing side by side with genuine, radiant smiles.",
+      "date": "2025-05-20"
+    },
+    {
+      "id": "g_fav_8",
+      "url": "http://localhost:5000/uploads/fav-person-5.jpg",
+      "title": "College Memories Together",
+      "category": "favorites",
+      "caption": "Special moments at college together—a friendship that means the world.",
+      "date": "2026-02-18"
+    },
+    {
+      "id": "g_1791387777165",
+      "url": "http://localhost:5000/uploads/photo-1791387777155-505094140.jpeg",
+      "title": "WhatsApp Image 2026-10-07 at 9.11.28 PM",
+      "category": "photos",
+      "caption": "",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "g_1791387781910",
+      "url": "http://localhost:5000/uploads/photo-1791387781906-709066004.jpeg",
+      "title": "WhatsApp Image 2026-10-07 at 9.11.32 PM (1)",
+      "category": "photos",
+      "caption": "",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "g_1791387787235",
+      "url": "http://localhost:5000/uploads/photo-1791387787224-497873699.jpeg",
+      "title": "WhatsApp Image 2026-10-07 at 9.11.32 PM",
+      "category": "photos",
+      "caption": "",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "g_1791387793458",
+      "url": "http://localhost:5000/uploads/photo-1791387793454-397710286.jpeg",
+      "title": "WhatsApp Image 2026-10-07 at 9.11.34 PM (1)",
+      "category": "photos",
+      "caption": "",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "g_1791387799492",
+      "url": "http://localhost:5000/uploads/photo-1791387799478-932981963.jpeg",
+      "title": "WhatsApp Image 2026-10-07 at 9.11.34 PM",
+      "category": "photos",
+      "caption": "",
+      "date": "2026-10-07"
+    }
+  ],
+  "talents": [
+    {
+      "id": "ta_1791388784932",
+      "title": "Music & Soulful Singing",
+      "description": "Her voice is truly beautiful and soulful. 🎶❤️ The way she sings with such sweetness, emotion, and confidence makes every song feel special. She has a natural talent for singing, and her voice has the power to make people stop, listen, and enjoy the moment. ✨Keep singing, keep shining, and keep spreading your beautiful voice everywhere! 🌸🎤",
+      "icon": "Music",
+      "rating": 5,
+      "link": "https://www.instagram.com/soul_in_melody_1009?stkn=MWM4bjg1aWc3NHBpaA==",
+      "linkText": "Listen to Her Songs (@soul_in_melody_1009)"
+    },
+    {
+      "id": "ta_1791388840139",
+      "title": "Bharathanathyam",
+      "description": "Grace in every movement, passion in every expression, and dedication in every step. ❤️✨ Her Bharatanatyam is not just a dance, it’s a beautiful way of telling stories through expressions, rhythm, and emotions. The way she carries herself with such elegance and confidence on stage is truly inspiring. 🪷💫Her talent, hard work, and love for Bharatanatyam make every performance special.",
+      "icon": "Award",
+      "rating": 5,
+      "images": [
+        "http://localhost:5000/uploads/bharatanatyam-performance-1.jpg",
+        "http://localhost:5000/uploads/bharatanatyam-performance-2.jpg"
+      ]
+    },
+    {
+      "id": "ta_1791388960095",
+      "title": "Confident Communicator & Powerful Presentator",
+      "description": "One of her greatest strengths is the way she confidently expresses herself in front of everyone. 🎤✨ She has an amazing ability to explain concepts clearly and make even complex topics easy to understand.Her confidence, communication skills, and presentation style make her stand out whenever she speaks. She knows how to engage the audience, present her ideas effectively, and speak with clarity and confidence. 🌟A truly confident speaker, an excellent presenter, and someone who can turn ideas into impactful words! ❤️👏",
+      "icon": "Camera",
+      "rating": 5,
+      "images": [
+        "http://localhost:5000/uploads/presenter-talent.jpg"
+      ]
+    },
+    {
+      "id": "ta_1791389043692",
+      "title": "Master chef",
+      "description": "She is truly amazing at cooking! ❤️🍳 The way she prepares different dishes with so much passion and perfection is really impressive. Every dish she makes is full of flavor, creativity, and love. 😋✨Her cooking is not just about making food—it’s about turning simple ingredients into something delicious and special. 👩‍🍳❤️",
+      "icon": "Star",
+      "rating": 5
+    }
+  ]
+}

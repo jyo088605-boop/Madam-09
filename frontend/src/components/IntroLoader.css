@@ -1,0 +1,164 @@
+.intro-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-dark);
+  background-image: radial-gradient(circle at center, #1b0f2a 0%, var(--bg-dark) 70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensure it stays on top of everything */
+  transition: opacity 0.7s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.7s;
+  opacity: 1;
+  visibility: visible;
+}
+
+.intro-overlay.fade-out {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+/* Pulsing Heart Box */
+.intro-heart-box {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-heart {
+  color: #ef4444;
+  fill: #ef4444;
+  filter: drop-shadow(0 0 20px rgba(239, 68, 68, 0.7));
+  animation: introHeartBeat 1.2s infinite cubic-bezier(0.215, 0.610, 0.355, 1);
+  z-index: 2;
+}
+
+.intro-heart-pulse {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: rgba(239, 68, 68, 0.3);
+  z-index: 1;
+  animation: introHeartWave 1.2s infinite ease-out;
+}
+
+@keyframes introHeartBeat {
+  0% { transform: scale(1); }
+  15% { transform: scale(1.25); }
+  30% { transform: scale(1); }
+  45% { transform: scale(1.2); }
+  70% { transform: scale(1); }
+}
+
+@keyframes introHeartWave {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+/* Text Fade-in & Slide-up */
+.intro-text {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--white);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: introTextReveal 1s ease-out 0.4s forwards;
+}
+
+.intro-text span {
+  display: inline-block;
+  animation: introWiggle 1.5s ease-in-out infinite alternate;
+}
+
+.intro-subtext {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--rose-gold-light);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0;
+  animation: introFadeIn 1s ease-out 1s forwards;
+}
+
+@keyframes introTextReveal {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes introFadeIn {
+  to {
+    opacity: 0.6;
+  }
+}
+
+@keyframes introWiggle {
+  0% { transform: rotate(-5deg) scale(1); }
+  100% { transform: rotate(10deg) scale(1.15); }
+}
+
+@media (max-width: 600px) {
+  .intro-text {
+    font-size: 2.25rem;
+  }
+}
+
+/* Floating Pink Hearts Background */
+.intro-hearts-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.intro-floating-heart {
+  position: absolute;
+  bottom: -50px;
+  color: rgba(255, 209, 220, 0.45); /* soft blush pink */
+  filter: drop-shadow(0 0 5px rgba(255, 209, 220, 0.3));
+  animation: introHeartRise 4s linear infinite;
+  user-select: none;
+}
+
+@keyframes introHeartRise {
+  0% {
+    transform: translateY(0) scale(0.5) rotate(0deg);
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.8;
+  }
+  85% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-110vh) scale(1.15) rotate(360deg);
+    opacity: 0;
+  }
+}

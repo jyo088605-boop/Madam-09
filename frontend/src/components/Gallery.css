@@ -1,0 +1,239 @@
+.gallery-section {
+  padding: 80px 0;
+  background: var(--bg-dark);
+}
+
+.gallery-filters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.filter-btn {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--glass-border);
+  color: var(--text-muted);
+  padding: 0.6rem 1.25rem;
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.filter-btn:hover, .filter-btn.active {
+  background: var(--rose-gold);
+  color: var(--white);
+  border-color: var(--rose-gold);
+  box-shadow: var(--shadow-glow);
+}
+
+.add-photo-form {
+  width: 100%;
+  max-width: 650px;
+  text-align: left;
+}
+
+.add-photo-form h3 {
+  margin-bottom: 1.5rem;
+  color: var(--gold);
+}
+
+.no-photos {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  padding: 3rem 0;
+}
+
+/* Gallery Grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  align-items: start;
+}
+
+.gallery-card {
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.gallery-img-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 75%; /* 4:3 Aspect Ratio */
+  overflow: hidden;
+  border-radius: 20px 20px 0 0;
+}
+
+.gallery-img-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.gallery-card:hover .gallery-img-wrapper img {
+  transform: scale(1.05);
+}
+
+.gallery-img-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(13, 12, 29, 0.6);
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  transition: var(--transition);
+  color: var(--white);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.gallery-card:hover .gallery-img-hover {
+  opacity: 1;
+}
+
+.hover-eye-icon {
+  color: var(--gold);
+  transform: translateY(10px);
+  transition: transform 0.3s ease;
+}
+
+.gallery-card:hover .hover-eye-icon {
+  transform: translateY(0);
+}
+
+.gallery-info {
+  padding: 1.5rem;
+}
+
+.gallery-info h4 {
+  font-size: 1.25rem;
+  color: var(--white);
+  margin-bottom: 0.5rem;
+}
+
+.gallery-info p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+  white-space: pre-line;
+}
+
+.gallery-date {
+  font-size: 0.75rem;
+  color: var(--rose-gold-light);
+  font-weight: 500;
+}
+
+.gallery-delete-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 10;
+}
+
+/* Lightbox Modal */
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(9, 8, 18, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3000;
+  padding: 2rem;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: var(--transition);
+  z-index: 3100;
+}
+
+.lightbox-close:hover {
+  color: var(--white);
+  transform: scale(1.1);
+}
+
+.lightbox-content {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.lightbox-content img {
+  max-height: 70vh;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.lightbox-details {
+  width: 100%;
+  text-align: center;
+  max-width: 600px;
+}
+
+.lightbox-details h3 {
+  font-size: 1.75rem;
+  color: var(--white);
+  margin-bottom: 0.5rem;
+}
+
+.lightbox-details p {
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+.lightbox-date {
+  font-size: 0.8rem;
+  color: var(--gold);
+  font-weight: 500;
+}
+
+/* Responsive grid adjustments */
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+  .lightbox-overlay {
+    padding: 1rem;
+  }
+  .lightbox-close {
+    top: 15px;
+    right: 15px;
+  }
+}
